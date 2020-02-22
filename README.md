@@ -22,6 +22,6 @@ is recommended. Or,
 from getPeriod import *
 
 target = [xdata,ydata,yerr] # for single star
-vstars = period_analysis(target,K=5,show_plot=True)
+vstars = period_analysis([target],K=5,show_plot=True)
 
 ```
